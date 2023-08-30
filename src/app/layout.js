@@ -1,7 +1,6 @@
 "use client"
 import './globals.css'
 import Navbar from '../../components/Navbar';
-import { useState } from 'react';
 import Footer from '../../components/Footer';
 
 export const metadata = {
