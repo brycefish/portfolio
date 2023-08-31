@@ -11,17 +11,17 @@ export default function Footer() {
     <footer id="contact" className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="mx-auto  p-4 flex flex-col text-center md:flex-row md:justify-between">
-        <div className="flex flex-row items-center justify-center space-x-1 text-slate-50">
+        <div className="flex flex-row items-center justify-center space-x-1 dark:text-slate-50">
           © 2023 Bryce Fish<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <p className="text-slate-50">Contact Me: </p>
+          <p className="dark:text-slate-50">Contact Me:</p>
         <a
             href="mailto:atlaschug@gmail.com"
             target="_blank"
           >
             <AiOutlineMail
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-slate-50 dark:text-slate-100"
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-600 dark:text-slate-50"
               size={30}
             />
           </a>
@@ -29,7 +29,7 @@ export default function Footer() {
           
           <a href="https://github.com/brycefish" rel="noreferrer" target="_blank">
             <AiOutlineGithub
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-slate-50 dark:text-slate-100"
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-slate-50"
               size={30}
             />
           </a>
@@ -39,7 +39,7 @@ export default function Footer() {
             target="_blank"
           >
             <AiOutlineLinkedin
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-slate-50 dark:text-slate-100"
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-slate-50"
               size={30}
             />
           </a>

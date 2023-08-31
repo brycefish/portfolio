@@ -24,7 +24,7 @@ const skills = [
 const AboutSection = () => {
   return (
     <section id="about">
-      <div className="my-12 pb-12 md:pt-16 md:pb-48 text-slate-50">
+      <div className="my-12 pb-12 md:pt-16 md:pb-48 dark:text-slate-50">
         <h1 className="text-center font-bold text-4xl">
           About Me
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-400 border-0 rounded"></hr>
@@ -36,11 +36,11 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Bryce, and I am  a highly <span className="font-bold">motivated</span> software developer based in Boise, ID.
+              Hi, my name is Bryce, and I am  a highly <span className="text-teal-500 font-semibold">motivated</span> software developer based in Boise, ID.
             </p>
             <br />
             <p>
-              After a decade of working in healthcare, I discovered my <span className="font-bold">passion</span> for programing.  I am currently attending the College of Western Idaho to obtain my AAS in Software Development. Somewhere   
+              After a decade of working in healthcare, I discovered my <span className="text-teal-500 font-semibold">passion</span> for programing.  I am currently attending the College of Western Idaho to obtain my AAS in Software Development.
             </p>
 
           </div>
@@ -51,7 +51,7 @@ const AboutSection = () => {
                 return (
                   <p
                     key={idx}
-                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-800 rounded font-semibold"
+                    className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-800 rounded font-semibold hover:bg-teal-200 dark:hover:bg-teal-500"
                   >
                     {item.skill}
                   </p>
