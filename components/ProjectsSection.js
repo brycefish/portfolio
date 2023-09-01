@@ -4,16 +4,10 @@ import React from "react";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
-  {
-    name: "Hot Head Sauces",
-    description: "First Project using JavaScript and jQuery.",
-    image: "/project1hot.png",
-    github: "https://github.com/brycefish/firstJavaScriptProject",
-    link: "https://s3.amazonaws.com/hotheadsauces.com/index.html",
-  },
+
   {
     name: "Dog Blog",
-    description: "Front-End Blog demonstrating Vue.",
+    description: "Front-End Blog using React.",
     image: "/dogBlogImage.png",
     github: "https://github.com/brycefish/DogBlogSocial",
     link: "https://codesandbox.io/s/project-4-react-9u3w0s",
@@ -24,6 +18,13 @@ const projects = [
     image: "/oldPortfolioImage.png",
     github: "https://github.com/brycefish/bootstrap_portfolio",
     link: "https://s3.amazonaws.com/brycefish.com/index.html",
+  },
+  {
+    name: "Hot Head Sauces",
+    description: "First Project using JavaScript and jQuery.",
+    image: "/project1hot.png",
+    github: "https://github.com/brycefish/firstJavaScriptProject",
+    link: "https://s3.amazonaws.com/hotheadsauces.com/index.html",
   },
 ]
 const ProjectsSection = () => {
